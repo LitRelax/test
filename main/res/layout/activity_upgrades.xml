@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context="com.example.korisnik.eatpizza.Upgrades">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:id="@+id/layoutTextShop">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="UPGRADES SHOP"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="25dp"
+        android:textStyle="italic"
+        android:textColor="#000000"
+        android:fontFamily="sans-serif"/>
+
+</RelativeLayout>
+<RelativeLayout
+    android:padding="15dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/layoutClickUpgrades"
+    android:layout_below="@id/layoutTextShop"
+    android:background="#ffeeee">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="Click upgrades: "
+        android:textColor="#111111"
+        android:id="@+id/textClickUpgrade"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textClickUpgrade"
+        android:text="1000 P"
+        android:id="@+id/buttonUpgradeClick1k"
+        android:textColor="#ff0000"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textClickUpgrade"
+        android:layout_toRightOf="@+id/buttonUpgradeClick1k"
+        android:text="25000 P"
+        android:id="@+id/buttonUpgradeClick25k"
+        android:textColor="#ff0000"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textClickUpgrade"
+        android:layout_toRightOf="@+id/buttonUpgradeClick25k"
+        android:text="50000 P"
+        android:id="@+id/buttonUpgradeClick50k"
+        android:textColor="#ff0000"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textClickUpgrade"
+        android:layout_toRightOf="@+id/buttonUpgradeClick50k"
+        android:text="100000 P"
+        android:id="@+id/buttonUpgradeClick100k"
+        android:textColor="#ff0000"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttonUpgradeClick1k"
+        android:text="250000 P"
+        android:id="@+id/buttonUpgradeClick250k"
+        android:textColor="#ff0000"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttonUpgradeClick25k"
+        android:layout_toRightOf="@+id/buttonUpgradeClick250k"
+        android:text="500000 P"
+        android:id="@+id/buttonUpgradeClick500k"
+        android:textColor="#ff0000"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttonUpgradeClick50k"
+        android:layout_toRightOf="@+id/buttonUpgradeClick500k"
+        android:text="1M P"
+        android:id="@+id/buttonUpgradeClick1M"
+        android:textColor="#ff0000"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttonUpgradeClick100k"
+        android:layout_toRightOf="@+id/buttonUpgradeClick1M"
+        android:text="5M P"
+        android:id="@+id/buttonUpgradeClick5M"
+        android:textColor="#ff0000"/>
+</RelativeLayout>
+
+<RelativeLayout
+    android:padding="15dp"
+    android:layout_marginTop="5dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/layoutBakerUpgrades"
+    android:layout_below="@id/layoutClickUpgrades"
+    android:background="#eeffee">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="Baker upgrades: "
+        android:textColor="#111111"
+        android:id="@+id/textBakerUpgrade"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textBakerUpgrade"
+        android:text="1000 P"
+        android:id="@+id/buttonUpgradeBaker1k"
+        android:textColor="#00bb00"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textBakerUpgrade"
+        android:layout_toRightOf="@+id/buttonUpgradeBaker1k"
+        android:text="25000 P"
+        android:id="@+id/buttonUpgradeBaker25k"
+        android:textColor="#00bb00"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textBakerUpgrade"
+        android:layout_toRightOf="@+id/buttonUpgradeBaker25k"
+        android:text="50000 P"
+        android:id="@+id/buttonUpgradeBaker50k"
+        android:textColor="#00bb00"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textBakerUpgrade"
+        android:layout_toRightOf="@+id/buttonUpgradeBaker50k"
+        android:text="100000 P"
+        android:id="@+id/buttonUpgradeBaker100k"
+        android:textColor="#00bb00"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttonUpgradeBaker1k"
+        android:text="250000 P"
+        android:id="@+id/buttonUpgradeBaker250k"
+        android:textColor="#00bb00"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttonUpgradeBaker25k"
+        android:layout_toRightOf="@+id/buttonUpgradeBaker250k"
+        android:text="500000 P"
+        android:id="@+id/buttonUpgradeBaker500k"
+        android:textColor="#00bb00"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttonUpgradeBaker50k"
+        android:layout_toRightOf="@+id/buttonUpgradeBaker500k"
+        android:text="1M P"
+        android:id="@+id/buttonUpgradeBaker1M"
+        android:textColor="#00bb00"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttonUpgradeBaker100k"
+        android:layout_toRightOf="@+id/buttonUpgradeBaker1M"
+        android:text="5M P"
+        android:id="@+id/buttonUpgradeBaker5M"
+        android:textColor="#00bb00"/>
+</RelativeLayout>
+
+<RelativeLayout
+    android:padding="15dp"
+    android:layout_marginTop="5dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/layoutOvenUpgrades"
+    android:layout_below="@id/layoutBakerUpgrades"
+    android:background="#eeeeff">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="Oven upgrades: "
+        android:textColor="#111111"
+        android:id="@+id/textOvenUpgrade"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textOvenUpgrade"
+        android:text="1000 P"
+        android:id="@+id/buttonUpgradeOven1k"
+        android:textColor="#00cccc"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textOvenUpgrade"
+        android:layout_toRightOf="@+id/buttonUpgradeOven1k"
+        android:text="25000 P"
+        android:id="@+id/buttonUpgradeOven25k"
+        android:textColor="#00cccc"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textOvenUpgrade"
+        android:layout_toRightOf="@+id/buttonUpgradeOven25k"
+        android:text="50000 P"
+        android:id="@+id/buttonUpgradeOven50k"
+        android:textColor="#00cccc"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textOvenUpgrade"
+        android:layout_toRightOf="@+id/buttonUpgradeOven50k"
+        android:text="100000 P"
+        android:id="@+id/buttonUpgradeOven100k"
+        android:textColor="#00cccc"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttonUpgradeOven1k"
+        android:text="250000 P"
+        android:id="@+id/buttonUpgradeOven250k"
+        android:textColor="#00cccc"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttonUpgradeOven25k"
+        android:layout_toRightOf="@+id/buttonUpgradeOven250k"
+        android:text="500000 P"
+        android:id="@+id/buttonUpgradeOven500k"
+        android:textColor="#00cccc"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttonUpgradeOven50k"
+        android:layout_toRightOf="@+id/buttonUpgradeOven500k"
+        android:text="1M P"
+        android:id="@+id/buttonUpgradeOven1M"
+        android:textColor="#00cccc"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttonUpgradeOven100k"
+        android:layout_toRightOf="@+id/buttonUpgradeOven1M"
+        android:text="5M P"
+        android:id="@+id/buttonUpgradeOven5M"
+        android:textColor="#00cccc"/>
+</RelativeLayout>
+<RelativeLayout
+    android:padding="5dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/layoutOvenUpgrades">
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2 Page"
+        android:layout_alignParentRight="true"
+        android:id="@+id/page2"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pizzas: "
+        android:textSize="20sp"
+        android:layout_centerVertical="true"
+        android:id="@+id/upgradeShopPizzasCounter"/>
+</RelativeLayout>
+
+</RelativeLayout>

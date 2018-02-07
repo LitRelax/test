@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.korisnik.eatpizza.Shop">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#7f6767"
+        android:id="@+id/relativeLayout">
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/back_arrow"
+            android:id="@+id/back"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SHOP"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="Upgrades shop"
+            android:id="@+id/nextShop"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="422dp"
+        android:padding="15dp"
+        android:background="#8a0010"
+        android:layout_below="@+id/relativeLayout"
+        android:id="@+id/RelLayShopers">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Upgrade Click"
+            android:textAllCaps="false"
+            android:id="@+id/click" />
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Baker"
+            android:textAllCaps="false"
+            android:id="@+id/baker"
+            android:layout_below="@id/click"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Oven"
+            android:textAllCaps="false"
+            android:layout_below="@id/baker"
+            android:id="@+id/oven"/>
+
+        <Button
+            android:layout_below="@id/oven"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Equiment"
+            android:textAllCaps="false"
+            android:id="@+id/equiment"/>
+
+        <Button
+            android:layout_below="@id/equiment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Stuff"
+            android:textAllCaps="false"
+            android:id="@+id/stuff"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/RelLayShopers"
+        android:background="#aaaaaa">
+
+        <TextView
+            android:id="@+id/ShopSpend"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/ShopPizPerSec"
+            android:layout_alignParentTop="true"
+            android:layout_alignStart="@+id/ShopPizPerSec"
+            android:text="Pizzas: 0"
+            android:textColor="#ffffff"
+            android:textSize="30dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="PizzasPerSecond: 0"
+            android:textSize="20dp"
+            android:textColor="#ffffff"
+            android:layout_below="@+id/ShopSpend"
+            android:id="@+id/ShopPizPerSec"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="Pizzas per tap: 1"
+            android:textSize="20dp"
+            android:textColor="#ffffff"
+            android:layout_below="@+id/ShopPizPerSec"
+            android:id="@+id/PizPerTap"/>
+    </RelativeLayout>
+
+
+
+</RelativeLayout>
